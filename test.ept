@@ -1,0 +1,17 @@
+<% if true then %>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed egestas nisi commodo tristique imperdiet.
+Pellentesque et lectus euismod, vehicula mi quis, sodales ex.
+Sed fringilla nulla ac sapien varius elementum.
+<% end %>
+<%
+  local foo = "bar"
+%>
+Vestibulum vitae eros non velit vestibulum commodo.
+<%= foo %>
+<% for i = 1,10 do %>
+Proin aliquam risus sollicitudin commodo vehicula.
+Nullam eget odio egestas, tempus sem quis, posuere purus.
+Praesent vitae dui efficitur, congue diam et, condimentum tellus.
+<% end %>
+
